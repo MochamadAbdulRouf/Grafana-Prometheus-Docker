@@ -1,4 +1,5 @@
 # Monitoring Docker with cAdvisor
+cAdvisor adalah tools open source dari Google yang berguna monitoring container dan mengumpulkan dan mengekspor traffic container seperti penggunaan CPU, Memory, dan Network Traffic.Dengan menggunakan cAdvisor nantinya Grafana dan Prometheus dapat menampilkan resource yang lebih lengkap dari container, Tidak hanya berapa jumlah container dan nama container dari docker nantinya dengan memakai cAdvisor bisa memantau penggunaan CPU, Memory, Network Traffic dari masing masing Container dari Docker
 
 1. Jalankan Container cAdvisor
 ```bash
@@ -39,4 +40,4 @@ sudo systemctl restart prometheus
 ![ss-1](./image/image.png)
 
 6. Lalu di Halaman import Dashboard bisa dimasukan ID nya lalu Klik LOAD
-note: Lihat tutorial ini dulu 
+note: Lihat ini dulu supaya tahu cara import dashboard https://github.com/MochamadAbdulRouf/Grafana-Prometheus-Docker/tree/main/monitoring-docker-daemon
