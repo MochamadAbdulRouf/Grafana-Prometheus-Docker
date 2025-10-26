@@ -1,5 +1,4 @@
-# Monitoring Local
-Metode ini digunakan dengan cara melakukan Deploy Prometheus dan Grafana lewat Local VM dan akan memonitoring Docker Container.Oh iya Prometheus dan Grafana adalah alat monitoring yang saling melengkapi.Jadi Prometheus digunakan untuk mengumpukan Data dan Grafana digunakan untuk menampikan data dari prometheus secara interaktif dan profesional untuk dilihat.
+Prometheus dan Grafana adalah alat monitoring yang saling melengkapi.Jadi Prometheus digunakan untuk mengumpukan Data dan Grafana digunakan untuk menampikan data dari prometheus secara interaktif dan profesional untuk dilihat.
 
 Jadi Prometheus sering digunakan untuk mengumpulkan data data seperti:
 - CPU usage dari container 
