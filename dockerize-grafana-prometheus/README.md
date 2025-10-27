@@ -20,7 +20,7 @@ WARN[0000] /home/rouf/monitoring-stack/docker-compose.yaml: the attribute `versi
  3. Verifikaisi Endpoint ke cAdvisor dan Prometheus Berhasil dengan status UP
  ![ss-2](./image/2.png)
 
- 4. Jika sudah pindah ke Tab baru masuk ke Dashboard Grafana dengan Port 3000, Masukan username admin password nya admin, Lalu ubah passwordnya.Ikuti langkah berikut :
+ 4. Jika sudah pindah ke Tab baru masuk ke Dashboard Grafana dengan Port 3000, Masukan username admin password nya admin, Lalu ubah passwordnya.Jika sudah masuk ke Dashboard Grafana Ikuti langkah berikut :
     - Klik tab sebelah kiri bernama connection --> Klik Add New Data Source --> Pilih Prometheus --> Masukan name Prometheusnya contoh "container-prometheus" --> Masukan Prometheus Server URL contoh disini saya masukan (http://10.10.10.18:9090). 
     - Scroll ke bawah klik Save & Test sampai ada notif "Data source is working"
 
